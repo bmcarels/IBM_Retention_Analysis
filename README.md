@@ -11,6 +11,7 @@ The categories with the highest attrition rates are:
 2) Employees with low job involvement (33.7% attrition vs. 16% overall)
 3) Employees who work overtime (30.5% attrition for 'Yes' vs. 10.4% for 'No')
 4) Employees who have been at the company for less than two years (29.8% attrition vs. 16% overall).
+
 Additionally, I calculated a rough estimate of 2.5 million dollars lost from the 237 employees who left IBM based on [The Center for American Progress's (CAP)](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/) attrition cost estimates categorized by salary.
 
 ### Datasource:
@@ -42,6 +43,6 @@ This data is fictional, “attrition” doesn’t separate people who quit from 
 
     *DATABASE_URL=postgresql://username:password@host:port/database_name*
 
-  The .env file is listed in .gitignore, so connection details are never uploaded to GitHub.
+     The .env file is listed in .gitignore, so connection details are never uploaded to GitHub.
 
 4) **Run the notebook.** Open it in JupyterLab and select Run → Run All Cells. The notebook cleans the data in pandas, saves the cleaned table to the database, and then runs the SQL analysis cells.
