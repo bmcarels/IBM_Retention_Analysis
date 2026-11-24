@@ -6,7 +6,12 @@ This project seeks to determine which groups of employees are most likely to lea
 
 ### Key Findings:
 
-The categories with the highest attrition rates are (1) Sales Representatives (39.8% attrition vs. 16% overall), (2) employees with low job involvement (33.7% attrition vs. 16% overall), (3) employees who work overtime (30.5% attrition for 'Yes' vs. 10.4% for 'No'), and (4) employees who have been at the company for less than two years (29.8% attrition vs. 16% overall). Additionally, I calculated a rough estimate of 2.5 million dollars lost from the 237 employees who left IBM based on [The Center for American Progress's (CAP)](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/) attrition cost estimates categorized by salary.
+The categories with the highest attrition rates are: 
+1) Sales Representatives (39.8% attrition vs. 16% overall)
+2) Employees with low job involvement (33.7% attrition vs. 16% overall)
+3) Employees who work overtime (30.5% attrition for 'Yes' vs. 10.4% for 'No')
+4) Employees who have been at the company for less than two years (29.8% attrition vs. 16% overall).
+Additionally, I calculated a rough estimate of 2.5 million dollars lost from the 237 employees who left IBM based on [The Center for American Progress's (CAP)](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/) attrition cost estimates categorized by salary.
 
 ### Datasource:
 
@@ -31,12 +36,12 @@ This data is fictional, “attrition” doesn’t separate people who quit from 
 1) **Get the data.** Download the dataset from Kaggle (link above), extract the CSV (WA_Fn-UseC_-HR-Employee-Attrition.csv) and place it in the same folder as the notebook.
 2) **Install the required packages.** In a terminal, run:
 
-pip install jupyterlab pandas sqlalchemy psycopg2-binary ipython-sql python-dotenv
+    *pip install jupyterlab pandas sqlalchemy psycopg2-binary ipython-sql python-dotenv*
 
 3) **Connect a database.** The SQL analysis runs on a PostgreSQL database. In the notebook folder, create a file named .env containing your own connection string:
 
-DATABASE_URL=postgresql://username:password@host:port/database_name
+    *DATABASE_URL=postgresql://username:password@host:port/database_name*
 
-The .env file is listed in .gitignore, so connection details are never uploaded to GitHub.
+  The .env file is listed in .gitignore, so connection details are never uploaded to GitHub.
 
 4) **Run the notebook.** Open it in JupyterLab and select Run → Run All Cells. The notebook cleans the data in pandas, saves the cleaned table to the database, and then runs the SQL analysis cells.
