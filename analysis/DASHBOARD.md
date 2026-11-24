@@ -1,7 +1,6 @@
 # Power BI Dashboard
 
 ### Overview
-![Dashboard overview](images)
 Three screenshots of three separate, but related, Power BI dashboards. Each dashboard is interactive and depicts the attrition rate by department and one other factor. Those factors are Job Role, Job Involvement, and Tenure.
 
 ### Attrition by Department and Job Role
@@ -9,8 +8,8 @@ Three screenshots of three separate, but related, Power BI dashboards. Each dash
 Notice that the Sales department and employees who work as Sales Representatives have the highest attrition rates in the dataset. 
 
 ### Attrition by Department and Job Involvement
-![Attrition by job involvement](images/Department_and_Job_Satisfaction.png)
-Notice that the employees in the HR department who experience low job satisfaction have the highest attrition rates in the dataset. 
+![Attrition by job involvement](images/Department_and_Job_Involvement.png)
+Notice that the employees in the Sales department who experience low job satisfaction have the highest attrition rates in the dataset. 
 
 ### Attrition by Department and Tenure
 ![Attrition by tenure](images/Department_and_Tenure.png)
