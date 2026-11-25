@@ -2,7 +2,7 @@
 
 ### Summary:
 
-This project seeks to determine which groups of employees are most likely to leave in IBM’s fictional HR dataset and how an AI Development Plan Assistant (AI Agent) could reduce attrition. This project has three parts: A Python and SQL analysis, three Power BI dashboard, and an AI Agent.
+This project seeks to determine which groups of employees are most likely to leave in IBM’s fictional HR dataset and how an AI Development Plan Assistant (AI Agent) could reduce attrition. This project has three parts: A Python and SQL analysis, three Power BI dashboards, and an AI Agent.
 
 ### Key Findings:
 
