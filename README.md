@@ -7,7 +7,6 @@ This project seeks to determine which groups of employees are most likely to lea
 ### Key Findings:
 
 #### Analysis:
-[Analysis](analysis/README.md)
 The categories with the highest attrition rates are: 
 1) Sales Representatives (39.8% attrition vs. 16% overall)
 2) Employees with low job involvement (33.7% attrition vs. 16% overall)
@@ -16,8 +15,10 @@ The categories with the highest attrition rates are:
 
 Additionally, I calculated a rough estimate of 2.5 million dollars lost from the 237 employees who left IBM based on [The Center for American Progress's (CAP)](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/) attrition cost estimates categorized by salary.
 
+Access this part of the project [here](analysis/README.md)
+
 #### Dashboard:
-![Attrition by role](images/Department_and_Job_Role.png)
+[image](images/Department_and_Job_Role.png)
 1) Sales department and employees who work as Sales Representatives have the highest attrition rates (39.8% attrition by department) in the dataset
 2) Employees in the Sales department who experience low job satisfaction have the highest attrition rates (51.7% attrition by department) in the dataset
 3) Employees in the HR department who have been at the company for less than two years have highest attrition rates (46.2% attrition by department) in the dataset
