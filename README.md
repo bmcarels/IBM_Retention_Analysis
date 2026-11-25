@@ -23,6 +23,8 @@ Access this part of the project [here](analysis/README.md)
 2) Employees in the Sales department who experience low job satisfaction have the highest attrition rates (51.7% attrition by department) in the dataset
 3) Employees in the HR department who have been at the company for less than two years have highest attrition rates (46.2% attrition by department) in the dataset
 
+Access this part of the project [here](analysis/DASHBOARD.md)
+
 #### AI Development Plan Assistant (AI Agent)
 The AI agent is tested on fourteen randomly selected profiles from the IBM dataset with every output reviewed by the same scorer.
 
