@@ -1,12 +1,15 @@
 # AI Development Plan Assistant
 
 ### Project Summary:
-The AI Development Plan Assistant (AI Agent) was created with the intention to efficiently make reliable recommends to address factors linked to attrition in IBM's fictional HR dataset. The AI Agent is an automated tool that outputs two learning suggestions, one stretch project, and a short conversation starter for managers based on specific job related information from a provided dataset. Fourteen profiles (seven employees who left and seven who stayed) were randomly selected from the dataset and used for each iteration of the project.
+The AI Development Plan Assistant (AI Agent) was created with the intention to efficiently make reliable recommends to address factors linked to attrition in IBM's fictional HR dataset. The AI Agent is an automated tool that outputs two learning suggestions, one stretch project, and a short conversation starter for managers based on specific job related information from a provided dataset. Fourteen profiles (seven employees who left and seven who stayed) were randomly selected from the dataset and used for each iteration of the project. 
+
+***Development***
+The final version of this project contained many rules that followed complex logic. Since a typical AI model would likely struggle with this, I used AI to develop a python script that applied these rules to every employee profile. The python script produced concrete outputs that the AI agent could easily follow. The AI agent was ultimately only responsible for writing appropriate wording since the python script handled the complex logic. This allowed my final version to be the strongest and most reliable.
 
 ### Key Findings:
-From version one to version three we achieved a 6.16% increase in relevance, 12.87% increase in accuracy, and a 27.23% increase in actionability for all AI outputs. After the first version, relevance scored a 4.71/5, accuracy a 4.43/5, and actionability a 3.93/5. All category scores reached a 5/5 by the third version. 
+From version one to version three we achieved a 6.16% increase in relevance, 12.87% increase in accuracy, and a 27.23% increase in actionability for all AI outputs. After the first version, relevance scored a 4.71/5, accuracy a 4.43/5, and actionability a 3.93/5. All category scores reached a 5/5 by the third version. I independently reviewed all plans and scored them using a written rubric.
 
-In addition to this, testing on three random profiles showed clear age-based differences in all 3 profiles. In one clear and one possible instance, the AI output displayed gender based differences on identical profiles. These results lead me to recommend excluding demographic data from the AI prompt and suggest a person review each plan.
+In addition to this, three profiles were tested and showed clear age-based differences in all 3 profiles. In one clear and one possible instance, the AI output displayed gender based differences on identical profiles. These results lead me to recommend excluding demographic data from the AI prompt and encouraging a person to review each plan.
 
 ### Datasource:
 I used IBM's HR Analytics Employee Attrition dataset for this analysis. The dataset is fictional and created by IBM. The dataset contains about 1,470 employees, 35 columns, and fields like department, job role, overtime, job satisfaction, training sessions, years since last promotion, and whether the person left. The dataset can be found using this [link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data).
