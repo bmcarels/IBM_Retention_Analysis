@@ -15,15 +15,15 @@ The categories with the highest attrition rates are:
 
 Additionally, I calculated a rough estimate of 2.5 million dollars lost from the 237 employees who left IBM based on [The Center for American Progress's (CAP)](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/) attrition cost estimates categorized by salary.
 
-Access this part of the project [here](analysis/README.md)
+Access this part of the project [here](Analysis_and_Dashboard/README.md)
 
 #### Dashboard:
-![Department and Job Role](analysis/images/Department_and_Job_Role.png)
+![Department and Job Role](Analysis_and_Dashboard/images/Department_and_Job_Role.png)
 1) Sales department and employees who work as Sales Representatives have the highest attrition rates (39.8% attrition by department) in the dataset
 2) Employees in the Sales department who experience low job satisfaction have the highest attrition rates (51.7% attrition by department) in the dataset
 3) Employees in the HR department who have been at the company for less than two years have highest attrition rates (46.2% attrition by department) in the dataset
 
-Access this part of the project [here](analysis/DASHBOARD.md)
+Access this part of the project [here](Analysis_and_Dashboard/DASHBOARD.md)
 
 #### AI Development Plan Assistant (AI Agent)
 The AI agent is tested on fourteen randomly selected profiles from the IBM dataset with every output reviewed by the same scorer.
