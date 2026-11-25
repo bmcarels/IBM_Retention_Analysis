@@ -7,7 +7,12 @@ The AI Development Plan Assistant (AI Agent) was created with the intention to e
 Version three (v3) of this project contained many rules that followed complex logic. Since a typical AI model would likely struggle with this, I used AI to develop a python script that applied these rules to every employee profile. The python script produced concrete outputs that the AI agent could easily follow. The AI agent was ultimately only responsible for writing appropriate wording since the python script handled the complex logic. This allowed my final version to be the strongest and most reliable.
 
 ### Key Findings:
-I independently reviewed all plans and scored them using a written rubric. From version one (v1) to version two (v2) I achieved a 6.16% increase in relevance, 12.87% increase in accuracy, and a 27.23% increase in actionability. After v1, relevance scored a 4.71/5, accuracy a 4.43/5, and actionability a 3.93/5. All category scores reached a 5/5 by v2 and stayed there in v3. While v2 had a 5/5 across the board, it still needed improvement. V2 contained unsupported assumptions and inconsistent sentence structure but that material was outside the scope of the scoring rubric so those errors were not reflected in the v2 scores. These assumptions and grammar issues were correct in v3 by moving the decision rules into a python script. In retrospect, the scoring rubric should have been more detailed to better represent the improvements.
+I independently reviewed all plans and scored them using a written rubric. From version one (v1) to version two (v2) I achieved a...
+1) 6.16% increase in relevance
+2) 12.87% increase in accuracy
+3) 27.23% increase in actionability
+
+After v1, relevance scored a 4.71/5, accuracy a 4.43/5, and actionability a 3.93/5. All category scores reached a 5/5 by v2 and stayed there in v3. While v2 had a 5/5 across the board, it still needed improvement. V2 contained unsupported assumptions and inconsistent sentence structure but that material was outside the scope of the scoring rubric so those errors were not reflected in the v2 scores. These assumptions and grammar issues were correct in v3 by moving the decision rules into a python script. In retrospect, the scoring rubric should have been more detailed to better represent the improvements.
 
 In addition to this, three profiles were tested and showed clear age-based differences in all 3 profiles. In one clear and one possible instance, the AI output displayed gender based differences on identical profiles. These results lead me to recommend excluding demographic data from the AI prompt and encouraging a person to review each plan.
 
