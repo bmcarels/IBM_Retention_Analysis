@@ -18,7 +18,7 @@ Additionally, I calculated a rough estimate of 2.5 million dollars lost from the
 Access this part of the project [here](analysis/README.md)
 
 #### Dashboard:
-[image](images/Department_and_Job_Role.png)
+![Department and Job Role](analysis/images/Department_and_Job_Role.png)
 1) Sales department and employees who work as Sales Representatives have the highest attrition rates (39.8% attrition by department) in the dataset
 2) Employees in the Sales department who experience low job satisfaction have the highest attrition rates (51.7% attrition by department) in the dataset
 3) Employees in the HR department who have been at the company for less than two years have highest attrition rates (46.2% attrition by department) in the dataset
